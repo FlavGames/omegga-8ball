@@ -20,7 +20,7 @@ remove it entirely if it is unnecessary.
 
 ## Install
 
-`omegga install gh:FlavouredGames, Critical Floof/8ball`
+`omegga install gh:FlavGames/8ball`
 
 _TODO: more steps...?_
 
