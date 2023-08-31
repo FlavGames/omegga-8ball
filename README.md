@@ -13,17 +13,12 @@ Your plugin will be installed via omegga install gh:FlavouredGames, Critical Flo
 
 A typed safe plugin for [omegga](https://github.com/brickadia-community/omegga).
 
-This is an auto-generated README file. Please change it before publishing your plugin!
-
-Be sure to edit the script in `setup.sh` to configure your plugin on install, or
-remove it entirely if it is unnecessary.
+Allows you to ask a magic 8 ball questions on your server.
 
 ## Install
 
 `omegga install gh:FlavGames/8ball`
 
-_TODO: more steps...?_
-
 ## Usage
 
-_TODO: include some usage information_
+/8ball
