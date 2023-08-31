@@ -1,0 +1,34 @@
+{
+  "name": "8ball",
+  "description": "The all-mighty magic 8 ball.",
+  "author": "FlavouredGames, Critical Floof, Syringe",
+  "config": {
+      "Limited Mode": {
+          "description": "Only users with Cooldown Bypass Role are allowed to use the command.",
+          "default": "false",
+          "type": "boolean"
+      },
+      "Command Cooldown": {
+          "description": "Cooldown time (in seconds) for using 8ball",
+          "default": 60,
+          "type": "number"
+      },
+      "Cooldown Bypass Role": {
+          "description": "The role which isn't affected by silly cooldowns.",
+          "default": "Admin",
+          "type": "role"
+      },
+      "Blacklist Role": {
+          "description": "The role which prevents any use of 8ball",
+          "default": "Admin",
+          "type": "role"
+      }
+  },
+  "commands": [
+      {
+          "name": "/8ball",
+          "description": "Shake the mighty 8ball for an answer",
+          "example": "/8ball"
+      }
+  ]
+}
